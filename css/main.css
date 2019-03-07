@@ -1,15 +1,96 @@
+/* Moblie styles starts here */
 body{
   background: red;
+  font-family: sans-serif;
 }
 
+h1 {
+  font-size: 1.75em;
+}
+
+.section {
+  padding: 5% 0;
+}
+
+.center{
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Tablet styles start here */
 @media screen and (min-width: 420px) {
   body{
     background: blue;
   }
+
+h1 {
+  font-size: 2.5em;
 }
 
+p {
+  font-size: 1.1em;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Desktop styles start here */
 @media screen and (min-width: 1024px) {
   body{
     background: pink;
+  }
+
+  h1 {
+font-size: 2.5em
+  }
+
+p {
+  font-size: 1.1em;
+}
+
+.center {
+  max-width: 1000px;
   }
 }
